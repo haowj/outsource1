@@ -118,7 +118,7 @@ export const asyncRoutes = [
     children: [
       {
         path: 'page',
-        component: () => import('@/views/permission/page'),
+        component: () => import('@/views/website/complex-table.vue'),
         name: '网站源',
         meta: {
           title: '网站源',
